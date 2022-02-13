@@ -30,7 +30,7 @@ sobra_preju = salario - gasto_total;
 
 //SAIDA SE CONDIÇÃO=1
 if(gasto_total < salario){
- System.out.println("Parabéns você gastou um valor menor doque o seu salário no mês");
+ System.out.println("Parabéns você gastou um valor menor do que o seu salário no mês");
   System.out.println("Seu gasto mensal foi de: " + gasto_total);
    System.out.println("O restante do seu salário ficou em: " + sobra_preju);
    proximo_mes = sobra_preju + salario;
@@ -102,7 +102,7 @@ sobra_preju = salario - gasto_total;
 
 //SAIDA SE GASTO TOTAL FOR MENOR QUE O SALÁRIO 
 if(gasto_total < salario){
-  System.out.println("Parebêns esse mês você consegui gastar um valor menor doque seu salário");
+  System.out.println("Parebêns esse mês você consegui gastar um valor menor do que seu salário");
   System.out.println("O seu salário no mês é de: " + salario);
   System.out.printf("O seu gasto total no mês foi de R$ %.2f \n", gasto_total);
   System.out.printf("O restante do seu salário ficou em R$ %.2f \n", sobra_preju);
