@@ -10,49 +10,49 @@ public class operacoes_matematicas {
 
 		System.out.print("Informe a operação matemática\n");
 		System.out.print("1=Soma\n 2=Multiplicação\n 3=Divisão\n 4=Subtração\n 5=Potenciação\n 6=Raiz quadrada\n 7=Equação do 2° grau\n 8=Tabuada\n : ");
-		capturador = teclado.nextInt();
+		 capturador = teclado.nextInt();
 		while (capturador != 0) {
 			if (capturador == 1) {
 				System.out.print("Informe um número: ");
-				num1 = teclado.nextInt();
+				 num1 = teclado.nextInt();
 				System.out.print("Informe outro número: ");
-				num2 = teclado.nextInt();
-				soma = num1 + num2;
+				 num2 = teclado.nextInt();
+				 soma = num1 + num2;
 				System.out.println("A soma entre os numero é: " + soma);
 			} else if (capturador == 2) {
 				System.out.print("Informe um número:");
-				num1 = teclado.nextInt();
+				 num1 = teclado.nextInt();
 				System.out.print("Informe outro número:");
-				num2 = teclado.nextInt();
-				multiplicacao = num1 * num2;
+				 num2 = teclado.nextInt();
+				 multiplicacao = num1 * num2;
 				System.out.println(num1 + "x" + num2 + "=" + multiplicacao);
 
 			} else if (capturador == 3) {
 				System.out.print("Informe um número: ");
-				num3 = teclado.nextFloat();
+				 num3 = teclado.nextFloat();
 				System.out.print("Informe outro número: ");
-				num4 = teclado.nextFloat();
-				divisao = num3 / num4;
+				 num4 = teclado.nextFloat();
+				 divisao = num3 / num4;
 				System.out.println(num3 + "÷" + num4 + "=" + divisao);
 			} else if (capturador == 4) {
 				System.out.print("Informe um número: ");
-				num1 = teclado.nextInt();
+				 num1 = teclado.nextInt();
 				System.out.print("Informe outro número: ");
-				num2 = teclado.nextInt();
-				subtracao = num1 - num2;
+				 num2 = teclado.nextInt();
+				 subtracao = num1 - num2;
 				System.out.println(num1 + "-" + num2 + "=" + subtracao);
 			} else if (capturador == 5) {
 				System.out.print("Informe a base:  ");
-				num1 = teclado.nextInt();
+				 num1 = teclado.nextInt();
 				System.out.print("Informe o expoente da base: ");
-				num2 = teclado.nextInt();
+				 num2 = teclado.nextInt();
 				for (int i = num2; i >= 1; i--) {
 					potenciacao = potenciacao * num1;
 				}
 				System.out.println("O resultado é: " + potenciacao);
 			} else if (capturador == 6) {
 				System.out.print("Informe o valor da raiz: ");
-				raiz_quadrada = teclado.nextFloat();
+				 raiz_quadrada = teclado.nextFloat();
 				System.out.println("O valor da raiz de\t" +  raiz_quadrada +  "\t=\t"  +  Math.sqrt(raiz_quadrada));
 
 			} else if (capturador == 7) {
@@ -65,9 +65,9 @@ public class operacoes_matematicas {
 				}
 
 				System.out.println("Informe um valor para 'b': ");
-				b = teclado.nextInt();
+				 b = teclado.nextInt();
 				System.out.print("Informe um valor para 'c': ");
-				c = teclado.nextInt();
+				 c = teclado.nextInt();
 				System.out.println("Resolvendo o valor de delta");
 
 				System.out.println("A fórmula de delta é:  b²-4.a.c");
@@ -97,8 +97,8 @@ public class operacoes_matematicas {
 			}
 
 				System.out.print("\nInforme a operação matemática\n");
-		System.out.print("1=Soma\n 2=Multiplicação\n 3=Divisão\n 4=Subtração\n 5=Potenciação\n 6=Raiz quadrada\n 7=Equação do 2° grau\n 8=Tabuada\n : ");
-			capturador = teclado.nextInt();
+		                System.out.print("1=Soma\n 2=Multiplicação\n 3=Divisão\n 4=Subtração\n 5=Potenciação\n 6=Raiz quadrada\n 7=Equação do 2° grau\n 8=Tabuada\n : ");
+			        capturador = teclado.nextInt();
 		}
 
         teclado.close();
